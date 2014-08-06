@@ -59,17 +59,23 @@ form input[type=text] {
     padding: 5px;
 }
 
-.chat {
+.message {
     padding: 5px;
     margin-bottom: 5px;
     background-color: #eee;
 }
 
-.chat .username {
+.message .username {
     font-weight: 800;
+    margin-right: 20px;
 }
-
-.chat:hover {
+.friend {
+    color: red;
+}
+.message .roomname {
+    font-size: .7em;
+}
+.message:hover {
     background-color: #ddd;
 }
 
